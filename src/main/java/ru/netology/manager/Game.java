@@ -44,7 +44,6 @@ public class Game {
         return 0;
     }
 
-
     public int round(String playerName1, String playerName2) {
         if (findByName(playerName1) == null) {
             throw new NotRegisteredException("Element with name: " + playerName1 + " not found");
