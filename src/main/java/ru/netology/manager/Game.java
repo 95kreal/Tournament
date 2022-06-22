@@ -37,7 +37,7 @@ public class Game {
 
     public int findByStrength(String name) {
         for (Player player : players) {
-            if (player.getName() == name) {
+            if (player.getName().equals(name)) {
                 return player.getStrength();
             }
         }
